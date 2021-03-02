@@ -1,0 +1,38 @@
+body {
+    background-image: url("tent.png");
+}
+span {
+    font-family: "Advent Pro";
+    font-size: 100px;
+    background-color: beige;
+    border-radius: 20px;
+    margin: 20px;
+    padding: 10px;
+}
+footer {
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    color: cadetblue;
+    font-size: 200px;
+}
+#once {
+    width: 200px;
+    
+}
+#upon {
+    width: 200px;
+}
+#a {
+}
+#time{
+}
+#topRow {
+    position: relative;
+    top: 200px;
+}
+
+#bottomRow {
+    position: relative;
+    top: 400px;
+}
