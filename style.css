@@ -9,10 +9,17 @@ span {
     margin: 20px;
     padding: 10px;
 }
-footer {
+#nextPage {
     position: fixed;
     bottom: 0px;
     right: 0px;
+    color: cadetblue;
+    font-size: 200px;
+}
+#prevPage {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
     color: cadetblue;
     font-size: 200px;
 }
