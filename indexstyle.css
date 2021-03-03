@@ -1,0 +1,79 @@
+body {
+    background-image: url("library.jpg")
+}
+
+.column {
+    background-color: lightgreen;
+    opacity: .5;
+}
+
+#books {
+    top: 50px;
+    height: 170px;
+    border-radius: 20px;
+    font-size: 100px;
+    font-family: 'Teko', sans-serif;
+    padding: 15px;
+    width: 450px;
+    transition: .5s;
+}
+
+#books:hover {
+    opacity: .75;
+    height: 500px;
+}
+
+#theHauntedTreasure {
+   display: none;
+   font-size: 26px;
+   padding: 10px;
+   border-style: solid;
+   background-color: cadetblue;
+   transition: 3s;
+}
+
+#books:hover > #theHauntedTreasure {
+    display: block;
+   top: 200px;
+}
+
+#japaneseSoundBoard {
+    display: none;
+    font-size: 26px;
+    padding: 10px;
+    border-style: solid;
+    background-color: plum;
+    transition: 3s;
+ }
+ #sounds:hover > #japaneseSoundBoard {
+    display: block;
+   top: 200px;
+}
+/* #books:hover ~ #sounds {
+    opacity: 0;
+}
+
+#sounds:hover ~ #books {
+    opacity: 0;
+} This doesn't work because the affected sibling must come after the specified */
+
+#sounds {
+    position: fixed;
+    font-family: 'Teko', sans-serif;
+    left: 650px;
+    top: 120px;
+    height: 170px;
+    border-radius: 20px;
+    width: 450px;
+    font-size: 100px;
+    padding: 15px;
+    transition: .5s;
+}
+
+#sounds:hover {
+    opacity: .75;
+    height: 500px;
+}
+.row {
+    height: 700px;
+}

@@ -1,0 +1,23 @@
+body {
+}
+img {
+    opacity: .75; 
+}
+
+.container {
+    position: fixed;
+    top: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+#blank {
+    padding: 9px;
+}
+span {
+    font-size: 45px;
+    padding: 5px;
+    outline-style: dotted;
+    margin: 10px;
+    background-color: white;
+}
