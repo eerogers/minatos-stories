@@ -1,9 +1,11 @@
 //There's definitely a cleaner way to do this, but for now -- row one:
+var i = "i.mp3"
+
 $(document).on("click", "#a", function(){
     playAudio("JapaneseCharacters/a.mp3")
 })
 $(document).on("click", "#i", function(){
-    playAudio("JapaneseCharacters/i.mp3")
+    playAudio("JapaneseCharacters/" + i)
 })
 $(document).on("click", "#u", function(){
     playAudio("JapaneseCharacters/u.mp3")
