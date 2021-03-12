@@ -1,11 +1,46 @@
+var characters = {
+a:{hiragana: "あ", katakana: "ア", sound: "a", file: "a.mp3"}, i: {hiragana: "い", katakana: "イ", sound: "i", file: "i.mp3"},
+u: {hiragana: "う", katakana: "ウ", sound: "u", file: "u.mp3"}, e: {hiragana: "え", katakana: "エ", sound: "e", file: "e.mp3"}, 
+o:{hiragana: "お", katakana: "イ", sound: "o", file: "o.mp3"}, 
+ka: {hiragana: "か", katakana: "カ", sound: "ka", file: "ka.mp3"}, ki: {hiragana: "き", katakana: "キ", sound: "ki", file: "ki.mp3"}, 
+ku:{hiragana: "く", katakana: "ク", sound: "ku", file: "ku.mp3"}, ke: {hiragana: "け", katakana: "ケ", sound: "ke", file: "ke.mp3"},
+ko: {hiragana: "こ", katakana: "コ", sound: "ko", file: "ko.mp3"},
+sa: {hiragana: "さ", katakana: "サ", sound: "sa", file: "sa.mp3"}, shi: {hiragana: "し", katakana: "シ", sound: "shi", file: "shi.mp3"}, 
+su:{hiragana: "す", katakana: "ス", sound: "su", file: "su.mp3"}, se: {hiragana: "せ", katakana: "セ", sound: "se", file: "se.mp3"},
+so: {hiragana: "そ", katakana: "ソ", sound: "so", file: "so.mp3"},
+ta: {hiragana: "た", katakana: "タ", sound: "ta", file: "ta.mp3"}, chi: {hiragana: "ち", katakana: "チ", sound: "chi", file: "chi.mp3"}, 
+tsu:{hiragana: "つ", katakana: "ツ", sound: "tsu", file: "tsu.mp3"}, te: {hiragana: "て", katakana: "テ", sound: "te", file: "te.mp3"},
+to: {hiragana: "と", katakana: "ト", sound: "to", file: "to.mp3"},
+na: {hiragana: "な", katakana: "ナ", sound: "na", file: "na.mp3"}, ni: {hiragana: "に", katakana: "ニ", sound: "ni", file: "ni.mp3"}, 
+nu:{hiragana: "ぬ", katakana: "ヌ", sound: "nu", file: "nu.mp3"}, ne: {hiragana: "ね", katakana: "ネ", sound: "ne", file: "ne.mp3"},
+no: {hiragana: "の", katakana: "ノ", sound: "no", file: "no.mp3"},
+ha: {hiragana: "は", katakana: "ハ", sound: "ha", file: "ha.mp3"}, hi: {hiragana: "ひ", katakana: "ヒ", sound: "hi", file: "hi.mp3"}, 
+fu:{hiragana: "ふ", katakana: "フ", sound: "fu", file: "fu.mp3"}, he: {hiragana: "へ", katakana: "ヘ", sound: "he", file: "he.mp3"},
+ho: {hiragana: "ほ", katakana: "ホ", sound: "ho", file: "ho.mp3"},
+ma: {hiragana: "ま", katakana: "マ", sound: "ma", file: "ma.mp3"}, mi: {hiragana: "み", katakana: "ミ", sound: "mi", file: "mi.mp3"}, 
+mu:{hiragana: "む", katakana: "ム", sound: "mu", file: "mu.mp3"}, me: {hiragana: "め", katakana: "メ", sound: "me", file: "me.mp3"},
+mo: {hiragana: "も", katakana: "モ", sound: "mo", file: "mo.mp3"},
+ya: {hiragana: "や", katakana: "ヤ", sound: "ya", file: "ya.mp3"},
+yu:{hiragana: "ゆ", katakana: "ユ", sound: "yu", file: "yu.mp3"},
+yo: {hiragana: "よ", katakana: "ヨ", sound: "yo", file: "yo.mp3"},
+ra: {hiragana: "ら", katakana: "ラ", sound: "ra", file: "ra.mp3"}, ri: {hiragana: "り", katakana: "リ", sound: "ri", file: "ri.mp3"}, 
+ru:{hiragana: "る", katakana: "ル", sound: "ru", file: "ru.mp3"}, re: {hiragana: "れ", katakana: "レ", sound: "re", file: "re.mp3"},
+ro: {hiragana: "ろ", katakana: "ロ", sound: "ro", file: "ro.mp3"},
+wa: {hiragana: "わ", katakana: "ワ", sound: "wa", file: "wa.mp3"},
+wo: {hiragana: "を", katakana: "ヲ", sound: "wo", file: "wo.mp3"},
+n: {hiragana: "ん", katakana: "ン", sound: "n", file: "n.mp3"},
+}
+
+console.log (characters.a.hiragana, characters.e.katakana)
+
 //There's definitely a cleaner way to do this, but for now -- row one:
-var i = "i.mp3"
+
 
 $(document).on("click", "#a", function(){
     playAudio("JapaneseCharacters/a.mp3")
 })
 $(document).on("click", "#i", function(){
-    playAudio("JapaneseCharacters/" + i)
+    playAudio("JapaneseCharacters/i.mp3")
 })
 $(document).on("click", "#u", function(){
     playAudio("JapaneseCharacters/u.mp3")
