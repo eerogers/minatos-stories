@@ -23,13 +23,17 @@ span {
 }
 
 table {
-    top: 100px;
+    top: 50px;
     position: fixed;
     border-collapse: separate;
-    border-spacing: 10px;
+    border-spacing: 20px;
+    left: 50px;
 }
 
 td {
-    background-color: white;
+    background-color: gainsboro;
+    color: darkgreen;
     padding: 10px;
+    font-size: 60px;
+    border-radius: 10px;
 }
