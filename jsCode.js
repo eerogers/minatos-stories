@@ -89,8 +89,9 @@ function repopulate() {
         }
     });
 } 
-repopulate()
-
+$(document).ready( function(){
+    repopulate()
+})
 $(document).on("click", "td", function(){
  //   console.log($(this).text())
     var audio = ($(this).attr("value"))
