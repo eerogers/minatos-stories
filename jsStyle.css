@@ -1,5 +1,6 @@
-img {
-    opacity: .75;
+body {
+    background-image: url('birds.png');
+    background-size: 100%;
 }
 
 .container {
@@ -21,33 +22,39 @@ span {
 }
 
 table {
-    top: 50px;
+    top: 20px;
     position: fixed;
     border-collapse: separate;
-    border-spacing: 20px;
+    border-spacing: 28px;
     left: 50px;
 }
 
 td {
-    background-color: gainsboro;
-    color: darkgreen;
+    background-color: darkslategray;
+    color: lightgrey;
     padding: 10px;
     font-size: 60px;
     border-radius: 10px;
 }
 #k-switch {
+    font-family: "Rajdhani";
     background-color: pink;
+    color: darkslategray;
+    border-style: none;
     font-size: 20px;
     padding: 20px;
     position: fixed;
     top: 520px;
-    left: 1200px;
+    left: 1230px;
 }
 #h-switch {
+    font-family: "Rajdhani";
     background-color: lightblue;
+    color: darkslategray;
+    border: none;
     font-size: 20px;
     padding: 20px;
     position: fixed;
     top: 150px;
-    left: 1200px;
+    left: 1235px;
 }

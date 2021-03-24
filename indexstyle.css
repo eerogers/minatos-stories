@@ -1,79 +1,96 @@
 body {
-    background-image: url("library.jpg")
+    background-image: url('dino.png');
+    background-size: 900px 900px;
+    background-repeat: no-repeat;
+    background-color:lightslategrey;
+    background-attachment: fixed;
+    background-position: right;
 }
 
-.column {
-    background-color: lightgreen;
-    opacity: .5;
-}
-
-#books {
-    top: 50px;
-    height: 170px;
-    border-radius: 20px;
-    font-size: 100px;
-    font-family: 'Teko', sans-serif;
-    padding: 15px;
-    width: 450px;
-    transition: .5s;
-}
-
-#books:hover {
-    opacity: .75;
-    height: 500px;
-}
-
-#theHauntedTreasure {
-   display: none;
-   font-size: 26px;
-   padding: 10px;
-   border-style: solid;
-   background-color: cadetblue;
-   transition: 3s;
-}
-
-#books:hover > #theHauntedTreasure {
-    display: block;
-   top: 200px;
-}
-
-#japaneseSoundBoard {
-    display: none;
-    font-size: 26px;
-    padding: 10px;
-    border-style: solid;
-    background-color: plum;
-    transition: 3s;
- }
- #sounds:hover > #japaneseSoundBoard {
-    display: block;
-   top: 200px;
-}
-/* #books:hover ~ #sounds {
-    opacity: 0;
-}
-
-#sounds:hover ~ #books {
-    opacity: 0;
-} This doesn't work because the affected sibling must come after the specified */
-
-#sounds {
+.header {
+    font-family: "Rajdhani";
     position: fixed;
-    font-family: 'Teko', sans-serif;
-    left: 650px;
-    top: 120px;
-    height: 170px;
-    border-radius: 20px;
-    width: 450px;
-    font-size: 100px;
-    padding: 15px;
-    transition: .5s;
+    background-color: lightskyblue;
+    opacity: 50%;
+    width: 100%;
+    height: 90px;
+    font-size: 40px;
+    padding: 20px 20px 20px 120px;
+
+}
+.games {
+    font-family: "Bebas Neue";
+    text-shadow: darkslategray 0px 0px 1px;
+    width: 200px;
+    height: 200px;
+    border-style: dotted;
+    background-color: yellowgreen;
+    color: white;
+    font-size: 30px;
+    padding: 50px 0px 50px 0px;
+    position: relative;
+    top: 335px;
+    left: -50px;
 }
 
-#sounds:hover {
-    opacity: .75;
-    height: 500px;
+.soundboard {
+    font-family: "Bebas Neue";
+    text-shadow: darkslategray 0px 0px 1px;
+    width: 200px;
+    height: 200px;
+    border-style: dotted;
+    text-align: center;
+    background-color: darkslategray;
+    color: white;
+    font-size: 30px;
+    padding: 50px 0px 50px 0px;
+    position: relative;
+    top: 535px;
+    left: -155px;
+
 }
-.row {
-    height: 700px;
+.stories {
+    font-family: "Bebas Neue";
+    text-shadow: darkslategray 0px 0px 1px;
+    width: 200px;
+    height: 200px;
+    border-style: dotted;
+    background-color: forestgreen;
+    color: white;
+    font-size: 30px;
+    padding: 50px 5px 50px 5px;
+    position: relative;
+    top: 535px;
+    left: 55px;
+
+}
+
+.flashcards {
+    font-family: "Bebas Neue";
+    text-shadow: darkslategray 0px 0px 1px;
+    width: 200px;
+    height: 200px;
+    border-style: dotted;
+    background-color: hotpink;
+    color: white;
+    font-size: 30px;
+    padding: 50px 5px 50px 5px;
+    position: relative;
+    top: 535px;
+    left: 55px;
+}
+
+.the-haunted-treasure {
+    font-family: "Bebas Neue";
+    text-shadow: darkslategray 0px 0px 1px;
+    width: 200px;
+    height: 200px;
+    border-style: dotted;
+    background-color: firebrick;
+    color: white;
+    font-size: 30px;
+    padding: 50px 5px 50px 5px;
+    position: relative;
+    top: 535px;
+    left: 55px;
 }

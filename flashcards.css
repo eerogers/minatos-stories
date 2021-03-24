@@ -1,0 +1,57 @@
+body {
+    background-image: url("leaves.jpg")
+}
+.container {
+    text-align: center;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    background-color: black;
+    color: white;
+    transition: 0.3s;
+    padding: 40px 0px 0px 0px;
+    height: 200px;
+    width: 200px;
+    font-size: 70px;
+    text-align: center;
+    position: relative;
+    border-radius: 10px;
+    top: 200px;
+    left: 40%;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0px;
+    width: 100%
+}
+
+.newCard {
+    background-color: blueviolet;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    width: 100%;
+    border: none;
+    position: relative;
+}
+
+.h-switch {
+    background-color: cadetblue;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    border: none;
+    width: 50%;
+}
+
+.k-switch {
+    background-color: palevioletred;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    border: none;
+    float: right;
+    width: 50%;
+}
